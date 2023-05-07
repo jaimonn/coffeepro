@@ -3,15 +3,53 @@
     padding: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+html,body{
+    width: 100%;
+    
+    overflow-x: hidden;
+
+}
+.h{
+    position: sticky;
+    transition: all 0.5s;
+ 
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+}
+.h1{
+    transition: all 0.3s;
+  }
+  .h1:hover{
+    transform: scale(1.15);
+    color: rgb(119, 80, 71);
+  }
 #st{
     position:relative;
     font-family: 'Times New Roman', Times, serif;
     font-size:30px;
     left: 400px;
     bottom: -30px;
-    color: rgb(172, 226, 239);
-    background-image: linear-gradient(white,rgb(69, 33, 33),rgb(65, 59, 59));
+    color: rgb(227, 237, 240);
+    /* background-image: linear-gradient(white,rgb(69, 33, 33),rgb(65, 59, 59)); */
 }
+.h12{
+    transition: all 0.3s;
+  }
+  .h12:hover{
+    transform: scale(1.15);
+    color: rgb(76, 40, 22);
+  }
+  .sar{
+    transition: all 0.3s;
+  }
+  .sar:hover{
+    transform: scale(1.15);
+    color: rgb(76, 40, 22);
+  }
+  
+
 .b1{
     background-color: bisque;
     background-image: linear-gradient(rgb(71, 49, 49),white,rgb(66, 65, 65));
@@ -131,7 +169,7 @@ h3{
     .sticky{
         background-color: rgb(105, 103, 104);
         background-color: transparent;
-        position: sticky;
+        /* position: sticky; */
     }
 .col1{
     position: relative;
@@ -201,16 +239,16 @@ img{
     position: relative;
     display: inline-block;
    width: 25%;
-   right: 420px;
-      bottom: 300px;
+   right: 350px;
+      bottom: 280px;
   }
   .img2{
     position: relative;
     display: inline-block;
    width: 300px;
    height: 300px;
-   right: 1000px;
-   left: 890px;
+   right: 100px;
+   left: 930px;
       bottom: 450px;
     
       
@@ -221,9 +259,9 @@ img{
    width: 55%;
    height: 300px;
    height: 300px;
-   right: 100px;
-   left: -330px;
-      bottom: 550px;
+   right: 160px;
+   left: -280px;
+      bottom: 540px;
     
       
   }
@@ -421,13 +459,14 @@ nav{
     /* background-color: aliceblue;
    background-image:linear-gradient(rgb(78, 58, 58),rgb(64, 62, 62)) */
 }
-nav{
-    position: sticky;top: 0;
-}
-body nav{
+/* nav{
     position: sticky;
     top: 0;
-}
+} */
+/* body nav{
+    position: sticky;
+    top: 0;
+} */
 nav ul li{
     display: inline-block;
     list-style: none;
@@ -458,3 +497,4 @@ footer{
     width: 50px;
     height: 40px;
 }
+ 
